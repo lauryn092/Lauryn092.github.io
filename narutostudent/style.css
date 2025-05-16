@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(177, 108, 30);
+  margin: 1em;
+  background: url(https://th.bing.com/th/id/OIP.M6rZsRCXuzoaNhgcvfW5qgHaEO?w=281&h=180&c=7&r=0&o=5&pid=1.7);
+  background-position: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 10%;
+
+}
+
+.header {
+ 
+  
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  font-family:emily candy;
+  font-size: 2em;
+  margin-top: 2px;
+  height: 10em;
+  padding: 6px;
+  text-align: center;
+
+   }
+.button{
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(54, 128, 52);
+    border: none;
+    color: rgb(2, 2, 2);
+    padding: .28em;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1.5em;
+    border-radius:25px;
+    margin: 2.5%;
+    opacity: .9;
+    font-size: larger;
+ }
+ 
+#more {display: none;}
+
+ @font-face{
+  font-family: emily candy;
+  src: url(fonts/Emilys+Candy.htm);
+ }
+.topnav {
+    overflow:hidden;
+  display:center;
+  
+
+}
+.preheader {
+  background-color: #17412a;
+  opacity: .9;
+  font-family: emily candy ;
+}
+.topnav a{
+    float: left;
+    color: #000000;
+    text-align: none;
+    padding: 14px 25px;
+    text-decoration:none ;
+    font: size 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+.topnav li{
+  display: inline;
+  list-style-type: none;
+}
+.p1 {
+  background-color: rgb(96, 121, 86);
+  padding: 5em;
+  border-radius: 2em;
+
+}
+.p2 {
+  background-color: rgb(174, 192, 167);
+  padding: 5em;
+  border-radius: 2em;
+  
+}
+.p3 {
+  background-color: rgb(78, 90, 73);
+  padding: 4.3em;
+  border-radius: 2em;
+}
+.p1,.p2,.p3{
+  min-height: 350px;
+}
+
+.topnav a:hover {
+    background-color: #17412a;
+    color: rgb(255, 255, 255);
+}
+.topnav a :active{
+    background-color: rgb(167, 189, 46);
+    color: rgb(206, 22, 22);
+}
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  background-color: #2a4e33;
+  padding: 10px;
+  text-align: center;
+  font-size: .8em;
+  width: 100%;
+  background-color: transparent;
+}
+.footer p {
+  text-shadow: #c6ccc9;
+  font-size: 1.5em;
+}
+
+
+img{
+    float: left;
+    width: 200px;
+    height: 300px;
+    object-fit:contain;
+}
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
