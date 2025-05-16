@@ -1,35 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Naruto</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+<title>The Nail Salon</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+<!-- this where the javascript starts-->
 
-    <div class="navbar">
-        <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="plot.html">Plot</a></li>
-        <li><a href="plot2.html">Plot continued</a></li>
-        <li><a href="manga.html">Manga</a></li>
-      
-      </ul>
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+<!-- this where the javascript ends-->
+<div class="header">
+    <h2 class="button">The Nail Salon</h2>
+    <div class="header"> 
+  
     </div>
+</div>
 
-    <div id="p1">Naruto is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village. The story is told in two parts: the first is set in Naruto's pre-teen years,and the second in his teens. The series is based on two one-shot manga by Kishimoto: Karakuri (1995), which earned Kishimoto an honorable mention in Shueisha's monthly Hop Step Award the following year, and Naruto (1997).Naruto was serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump from September 1999 to November 2014, with its chapters collected in 72 tankōbon volumes. Viz Media licensed the manga for North American production and serialized Naruto in their digital Weekly Shonen Jump magazine. The manga adapted into two anime television series by Pierrot and Aniplex, which ran from October 2002 to March 2017 on TV Tokyo. Pierrot also developed 11 animated films and 12 original video animations (OVAs). The franchise includes light novels, video games, and trading cards developed by several companies. The story of Naruto continues in Boruto, where Naruto's son Boruto Uzumaki creates his own ninja way instead of following his father's.
-    </div>
-    
-    
-    <div id="p2"> Naruto is one of the best-selling manga series of all time, having 250 million copies in circulation worldwide. It has become one of Viz Media's best-selling manga series; their English translations of the volumes have appeared on USA Today and The New York Times bestseller list several times, and the seventh volume won a Quill Award in 2006. Reviewers praised the manga's character development, storylines, and action sequences, though some felt the latter slowed the story down. Critics noted that the manga, which has a coming-of-age theme, makes use of cultural references from Japanese mythology and Confucianism.</div>
+<p>
+  <a href="https://th.bing.com/th/id/OIP.M6rZsRCXuzoaNhgcvfW5qgHaEO?w=281&h=180&c=7&r=0&o=5&pid=1.7" >
 
 
-    <div class="footer">
+</a></p>
+
+<div class="topnav">
+    <a href="index.html"> Home  </a>
+    <a href="manicure.html"> Manicure </a>
+    <a href="acrylic.html"> Acrylic </a>
+    <a href="pedicures.html"> Pedicure</a>
     
-      <p class="footer"><span class="button">Policy:</span><br> Use of Naruto imagery is subject to our Terms of Service and Privacy Policy.</p>
-        
-      </div>
-    
+</div>
+
+
+<div class="preheader">
+  <p>Professional nail technicians bring a wealth of expertise to the table, ensuring that each manicure and pedicure is executed with precision. Their skills not only enhance the appearance of nails but also contribute to their health and longevity. Techniques such as structured gel manicures or Japanese gel applications provide durability and support for natural nail growth, making them ideal for clients seeking strength and resilience in their nails.</p>
+</div>
+
+<div class="row">
+
+<div class="column">
+  
+  
+  </p><h2> Manicures</h2>
+ 
+ <p> <p class="p1"> <img src="images/manicure.jfif" alt="imagesof Manicure"> Regular manicures can help prevent nail issues like brittleness, discoloration, and ingrown nails. Technicians also promote proper skin exfoliation, removing dead skin cells and keeping your hands soft and smooth.</p>
+    <p>
+  </div>
+
+
+ <div class="column"> 
+
+  <h2> Acrylic </h2>
+  
+  <p class="p2"> <img src="images/acrylics.jpg" alt="images of long acrylics">
+ 
+
+   Acrylic nails are a durable, long-lasting option that help keep your manicure looking fresh for weeks. Unlike regular polish, acrylics resist chipping and wear, making them perfect for clients who want low-maintenance beauty.<span id="dots">...</span><span id="more"> With proper care, acrylics not only enhance your nails’ appearance but also protect the natural nail underneath. Whether it’s for everyday wear or a special occasion, acrylic nails are a strong, stylish choice.</span>
+<button onclick="myFunction()" id="myBtn"> Click Here</button>
+      </p>
+</div>
+
+<div class="column">
+   
+
+  <h2> Pedicure</h2>
+  <p><p class="p3"><img src="images/pedicure.jpg" alt="image of pedicure"> 
+    Pedicures involve thorough cleaning, exfoliation, and moisturizing, addressing common foot issues like calluses and dry skin.Improved Circulation: The massage techniques used during pedicures stimulate blood flow to the feet, promoting healthier skin and nails. </p>
+ 
+</div>
+</div>
+
+
+<div class="footer">
+  <p class="footer"><span class="button">Policy</span><br> These are the policies of The Nail Salon.</p>
+
+</div>
+
+
+
+
 </body>
 </html>
+
+
